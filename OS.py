@@ -259,7 +259,7 @@ OS = {
         "title": "HPCC Plugin Couchbaseembed for Centos7/RHEL7",
         "text": "",
         "link": "",
-        "essential": "0"
+        "essential": "3"
         },
         {
         "id": "el7",
@@ -278,12 +278,30 @@ OS = {
         "text": "",
         "link": "",
         "essential": "0"
+        },        
+        {
+        "id": "el7",
+        "name": "CentOS7/RHEL7",
+        "install": "plugin-mongodbembed",
+        "title": "HPCC Plugin MongoDB embed for Centos7/RHEL7",
+        "text": "",
+        "link": "",
+        "essential": "0"
         },
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
         "install": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed for Centos7/RHEL7",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el7",
+        "name": "CentOS7/RHEL7",
+        "install": "plugin-nlp",
+        "title": "HPCC Plugin NLP for Centos7/RHEL7",
         "text": "",
         "link": "",
         "essential": "0"
@@ -488,6 +506,15 @@ OS = {
         },
         {
         "id": "el8",
+        "name": "CentOS8/RHEL8",
+        "install": "plugin-h3",
+        "title": "HPCC Plugin H3 for Centos8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
         "install": "plugin-kafka",
         "title": "HPCC Plugin Kafka for CentOS Stream 8/RHEL8",
@@ -507,8 +534,26 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-mongodbembed",
+        "title": "HPCC Plugin MongoDB embed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
         "install": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-nlp",
+        "title": "HPCC Plugin NLP for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
         "essential": "0"
@@ -705,6 +750,15 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-h3",
+        "title": "HPCC Plugin H3 for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
         "install": "plugin-kafka",
         "title": "HPCC Plugin Kafka for Rocky Linux 8/RHEL8",
         "text": "",
@@ -723,8 +777,26 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-mongodbembed",
+        "title": "HPCC Plugin MongoDB embed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
         "install": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-nlp",
+        "title": "HPCC Plugin NLP for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
         "essential": "0"
@@ -1285,12 +1357,30 @@ OS = {
         "text": "",
         "link": "",
         "essential": "0"
+        },        
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-mongodbembed",
+        "title": "HPCC Plugin MongoDB embed Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
         },
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
         "install": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-nlp",
+        "title": "HPCC Plugin NLP for Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
@@ -1478,8 +1568,26 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-mongodbembed",
+        "title": "HPCC Plugin MongoDB embed Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
         "install": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-nlp",
+        "title": "HPCC Plugin NLP for Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
@@ -1757,9 +1865,9 @@ OS = {
     ],
     "windows": [
         {
-        "id": "Windows",
+        "id": "Windows*i386",
         "name": "Windows",
-        "install": "ide",
+        "install": "eclide",
         "title": "ECL IDE and Client Tools for Windows",
         "text": "",
         "link": "",
