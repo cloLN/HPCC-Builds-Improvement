@@ -3,6 +3,8 @@ import requests
 import re
 import json
 import os
+import hashlib
+import requests
 
 REPO_OWNER = os.getenv('REPO_OWNER')
 REPO_NAME = os.getenv('REPO_NAME')
@@ -57,11 +59,14 @@ def extract_info(file_name):
 
 def map_to_os_dict(extracted_info):
     unknown_ids = set()
+    
     for info in extracted_info:
         found = False
         for os_family in OS.values():
             for entry in os_family:
-                if info['ID'] == entry['id']:
+                if info['ID'] == "Windows":
+                    print(f"id is: %s", info['ID'], "install is: %s", info['Install'])
+                if info['ID'] == entry['id'] and info['Install'] == entry['install']:
                     info['OS'] = entry['name']
                     info['Essential'] = entry['essential']
                     info['Link_Path'] = entry['link']
@@ -76,6 +81,7 @@ def map_to_os_dict(extracted_info):
             unknown_ids.add(info['ID'])
     return extracted_info, unknown_ids
 
+
 def filter_md5_assets(assets):
     md5_dict = {}
     for asset in assets:
@@ -89,6 +95,28 @@ def filter_md5_assets(assets):
 
 def bytes_to_mb(bytes_size):
     return round(bytes_size / (1024 * 1024), 3)
+
+def parse_version_string(version_string):
+    # Remove everything before the "_"
+    _, version_info = version_string.split('_', 1)
+    
+    # Split the version info using "." and "-" as separators
+    parts = version_info.replace('-', '.').split('.')
+    
+    # Assign the parts to variables
+    major_version = parts[0]
+    minor_version = parts[1]
+    patch_version = parts[2]
+    build_number = parts[3]
+    
+    return major_version, minor_version, patch_version, build_number
+
+def calculate_md5sum(url):
+    response = requests.get(url)
+    response.raise_for_status()
+    file_content = response.content
+    md5_hash = hashlib.md5(file_content).hexdigest()
+    return md5_hash
 
 extracted_info = []
 
@@ -124,6 +152,8 @@ unknown_count = sum(1 for info in mapped_info if info['OS'] == 'Unknown')
 
 json_obj = []
 
+major, minor, point, sequence = parse_version_string(TAG)
+
 # Printing and collecting JSON objects
 for info in mapped_info:
     print(f"OS: {info['OS']}")
@@ -141,8 +171,22 @@ for info in mapped_info:
     print("\n")
 
 # Saving to JSON file
+outfile = TAG + ".json"
 try:
-    with open("output.json", 'w') as json_file:
+    with open(outfile, 'w') as file:
+        file.write("{ \n")
+        file.write("\"files\": ")
+    with open(outfile, 'a') as json_file:
         json.dump(json_obj, json_file, indent=4)
+    
+    with open(outfile, 'a') as file:
+        file.write(", \n")
+        file.write("\"Major\": \"" + major + "\", \n")
+        file.write("\"Minor\": \"" + minor + "\", \n")
+        file.write("\"Point\": \"" + point + "\", \n")
+        file.write("\"Sequence\": \"" + sequence + "\", \n")
+        file.write("\"Version\": \"" + TAG.split('_')[1] + "\", \n")       
+        file.write("\"type\": \"release\"\n")
+        file.write("}")
 except Exception as e:
     print(f"An error occurred: {e}")
