@@ -65,7 +65,7 @@ def map_to_os_dict(extracted_info):
         for os_family in OS.values():
             for entry in os_family:
                 if info['ID'] == "Windows":
-                    print(f"id is: %s", info['ID'], "install is: %s", info['Type'])
+     print(f"id is: %s", info['ID'], "install is: %s", info['Type'])
                 if info['ID'] == entry['id'] and info['Type'] == entry['type']:
                     info['OS'] = entry['name']
                     info['Essential'] = entry['essential']
@@ -80,6 +80,7 @@ def map_to_os_dict(extracted_info):
             info['OS'] = 'Unknown'
             unknown_ids.add(info['ID'])
     return extracted_info, unknown_ids
+
 
 def filter_md5_assets(assets):
     md5_dict = {}
