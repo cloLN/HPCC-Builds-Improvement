@@ -83,6 +83,7 @@ def map_to_os_dict(extracted_info):
             unknown_ids.add(info['ID'])
     return extracted_info, unknown_ids
 
+
 def filter_md5_assets(assets):
     md5_dict = {}
     for asset in assets:
