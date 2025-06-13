@@ -3,7 +3,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -12,7 +12,7 @@ OS = {
         {
         "id": "plugins*el6",
         "name": "CentOS6/RHEL6",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Centos6/RHEL6 with plugins",
         "text": "",
         "link": "",
@@ -21,7 +21,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -30,7 +30,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -39,7 +39,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -48,7 +48,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -57,7 +57,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -66,7 +66,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -75,7 +75,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -84,7 +84,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -93,7 +93,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -102,7 +102,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-pyembed",
+        "type": "plugin-pyembed",
         "title": "HPCC Plugin Pyembed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -111,7 +111,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-py2embed",
+        "type": "plugin-py2embed",
         "title": "HPCC Plugin Py2embed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -120,7 +120,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-py3embed",
+        "type": "plugin-py3embed",
         "title": "HPCC Plugin Py3embed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -129,7 +129,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -138,7 +138,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -147,7 +147,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -156,7 +156,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -165,7 +165,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -174,7 +174,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -183,7 +183,7 @@ OS = {
         {
         "id": "el6",
         "name": "CentOS6/RHEL6",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark for Centos6/RHEL6",
         "text": "",
         "link": "",
@@ -192,7 +192,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -201,7 +201,7 @@ OS = {
         {
         "id": "plugins*el7",
         "name": "CentOS7/RHEL7",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform for Centos7/RHEL7 with plugins",
         "text": "",
         "link": "",
@@ -210,7 +210,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -219,7 +219,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -228,7 +228,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -237,7 +237,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -246,7 +246,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -255,7 +255,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -264,7 +264,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -273,7 +273,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -282,7 +282,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-mongodbembed",
+        "type": "plugin-mongodbembed",
         "title": "HPCC Plugin MongoDB embed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -291,7 +291,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -300,7 +300,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-nlp",
+        "type": "plugin-nlp",
         "title": "HPCC Plugin NLP for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -309,7 +309,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-pyembed",
+        "type": "plugin-pyembed",
         "title": "HPCC Plugin Pyembed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -318,7 +318,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-py2embed",
+        "type": "plugin-py2embed",
         "title": "HPCC Plugin Py2embed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -327,7 +327,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-py3embed",
+        "type": "plugin-py3embed",
         "title": "HPCC Plugin Py3embed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -336,7 +336,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -345,7 +345,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -354,7 +354,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -363,7 +363,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -372,7 +372,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -381,7 +381,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -390,7 +390,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-parquetembed",
+        "type": "plugin-parquetembed",
         "title": "HPCC Plugin Parquet for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -399,7 +399,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-cassandraembed",
+        "type": "plugin-cassandraembed",
         "title": "HPCC Plugin Cassandra for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -408,7 +408,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-eclblas",
+        "type": "plugin-eclblas",
         "title": "HPCC Plugin ECLBLAS for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -417,7 +417,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-h3",
+        "type": "plugin-h3",
         "title": "HPCC Plugin H3 for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -426,7 +426,7 @@ OS = {
         {
         "id": "el7",
         "name": "CentOS7/RHEL7",
-        "install": "plugin-wasmembed",
+        "type": "plugin-wasmembed",
         "title": "HPCC Plugin Wasmembed for Centos7/RHEL7",
         "text": "",
         "link": "",
@@ -435,7 +435,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -444,7 +444,7 @@ OS = {
         {
         "id": "plugins*el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform for CentOS Stream 8/RHEL8 with plugins",
         "text": "",
         "link": "",
@@ -453,7 +453,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -462,7 +462,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -471,7 +471,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -480,7 +480,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -489,7 +489,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -498,7 +498,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -507,7 +507,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS8/RHEL8",
-        "install": "plugin-h3",
+        "type": "plugin-h3",
         "title": "HPCC Plugin H3 for Centos8/RHEL8",
         "text": "",
         "link": "",
@@ -516,7 +516,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -525,7 +525,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -534,7 +534,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-mongodbembed",
+        "type": "plugin-mongodbembed",
         "title": "HPCC Plugin MongoDB embed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -543,7 +543,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -552,7 +552,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-nlp",
+        "type": "plugin-nlp",
         "title": "HPCC Plugin NLP for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -561,7 +561,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-pyembed",
+        "type": "plugin-pyembed",
         "title": "HPCC Plugin Pyembed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -570,7 +570,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-py2embed",
+        "type": "plugin-py2embed",
         "title": "HPCC Plugin Py2embed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -579,7 +579,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-py3embed",
+        "type": "plugin-py3embed",
         "title": "HPCC Plugin Py3embed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -588,7 +588,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -597,7 +597,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -606,7 +606,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -615,7 +615,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -624,7 +624,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -633,7 +633,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-cassandraembed",
+        "type": "plugin-cassandraembed",
         "title": "HPCC Plugin Cassandrambed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -642,7 +642,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-parquetembed",
+        "type": "plugin-parquetembed",
         "title": "HPCC Plugin Parquet for Centos Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -651,7 +651,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-eclblas",
+        "type": "plugin-eclblas",
         "title": "HPCC Plugin ECLBLAS for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -660,7 +660,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -669,7 +669,7 @@ OS = {
         {
         "id": "el8",
         "name": "CentOS Stream 8/RHEL8",
-        "install": "plugin-wasmembed",
+        "type": "plugin-wasmembed",
         "title": "HPCC Plugin Wasmembed for CentOS Stream 8/RHEL8",
         "text": "",
         "link": "",
@@ -678,7 +678,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -687,7 +687,7 @@ OS = {
         {
         "id": "plugins*rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform for Rocky Linux 8/RHEL8 with plugins",
         "text": "",
         "link": "",
@@ -696,7 +696,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -705,7 +705,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -714,7 +714,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -723,7 +723,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -732,7 +732,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -741,7 +741,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -750,7 +750,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-h3",
+        "type": "plugin-h3",
         "title": "HPCC Plugin H3 for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -759,7 +759,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -768,7 +768,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -777,7 +777,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-mongodbembed",
+        "type": "plugin-mongodbembed",
         "title": "HPCC Plugin MongoDB embed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -786,7 +786,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -795,7 +795,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-nlp",
+        "type": "plugin-nlp",
         "title": "HPCC Plugin NLP for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -804,7 +804,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-pyembed",
+        "type": "plugin-pyembed",
         "title": "HPCC Plugin Pyembed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -813,7 +813,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-py2embed",
+        "type": "plugin-py2embed",
         "title": "HPCC Plugin Py2embed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -822,7 +822,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-py3embed",
+        "type": "plugin-py3embed",
         "title": "HPCC Plugin Py3embed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -831,7 +831,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -840,7 +840,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -849,7 +849,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -858,7 +858,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -867,7 +867,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -876,7 +876,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-cassandraembed",
+        "type": "plugin-cassandraembed",
         "title": "HPCC Plugin Cassandrambed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -885,7 +885,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-parquetembed",
+        "type": "plugin-parquetembed",
         "title": "HPCC Plugin Parquet for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -894,7 +894,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-eclblas",
+        "type": "plugin-eclblas",
         "title": "HPCC Plugin ECLBLAS for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -903,7 +903,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -912,7 +912,7 @@ OS = {
         {
         "id": "rocky8",
         "name": "Rocky Linux 8/RHEL8",
-        "install": "plugin-wasmembed",
+        "type": "plugin-wasmembed",
         "title": "HPCC Plugin Wasmembed for Rocky Linux 8/RHEL8",
         "text": "",
         "link": "",
@@ -923,7 +923,7 @@ OS = {
         {
         "id": "squeeze_amd64",
         "name": "Debian",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Debian Squeeze",
         "text": "",
         "link": "",
@@ -934,7 +934,7 @@ OS = {
         {
         "id": "Darwin",
         "name": "Mac OSX",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Mac OSX",
         "text": "",
         "link": "",
@@ -943,7 +943,7 @@ OS = {
         {
         "id": "Darwin",
         "name": "Mac OSX",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Mac OSX",
         "text": "",
         "link": "",
@@ -954,7 +954,7 @@ OS = {
         {
         "id": "suse11.4",
         "name": "OpenSUSE",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform OpenSUSE 11.4",
         "text": "",
         "link": "",
@@ -965,7 +965,7 @@ OS = {
 	{
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -974,7 +974,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -983,7 +983,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -992,7 +992,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1001,7 +1001,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1010,7 +1010,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1019,7 +1019,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1028,7 +1028,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1037,7 +1037,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1046,7 +1046,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1055,7 +1055,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-pyembed",
+        "type": "plugin-pyembed",
         "title": "HPCC Plugin Pyembed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1064,7 +1064,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-py2embed",
+        "type": "plugin-py2embed",
         "title": "HPCC Plugin Py2embed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1073,7 +1073,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-py3embed",
+        "type": "plugin-py3embed",
         "title": "HPCC Plugin Py3embed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1082,7 +1082,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1091,7 +1091,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1100,7 +1100,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1109,7 +1109,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1118,7 +1118,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1127,7 +1127,7 @@ OS = {
         {
         "id": "xenial",
         "name": "Ubuntu 16.04 LTS",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark Ubuntu 16.04 LTS",
         "text": "",
         "link": "",
@@ -1136,7 +1136,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1145,7 +1145,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1154,7 +1154,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1163,7 +1163,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1172,7 +1172,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1181,7 +1181,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1190,7 +1190,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1199,7 +1199,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1208,7 +1208,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1217,7 +1217,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1226,7 +1226,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1235,7 +1235,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1244,7 +1244,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1253,7 +1253,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1262,7 +1262,7 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
@@ -1271,8 +1271,215 @@ OS = {
         {
         "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark Ubuntu 18.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04LTS",
+        "type": "platform",
+        "title": "HPCC Platform Ubuntu 24.04LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-couchbaseembed",
+        "title": "HPCC Plugin Couchbaseembed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-javaembed",
+        "title": "HPCC Plugin Javaembed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-kafka",
+        "title": "HPCC Plugin Kafka Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-memcached",
+        "title": "HPCC Plugin Memcached Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },        
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-mongodbembed",
+        "title": "HPCC Plugin MongoDB embed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-mysqlembed",
+        "title": "HPCC Plugin MySQLembed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-nlp",
+        "title": "HPCC Plugin NLP for Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-redis",
+        "title": "HPCC Plugin Redis Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-rembed",
+        "title": "HPCC Plugin Rembed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-sqlite3embed",
+        "title": "HPCC Plugin Sqlite3embed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-sqs",
+        "title": "HPCC Plugin SQS Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-v8embed",
+        "title": "HPCC Plugin V8embed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-parquetembed",
+        "title": "HPCC Plugin Parquetembed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-cassandraembed",
+        "title": "HPCC Plugin Cassandraembed Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-eclblas",
+        "title": "HPCC Plugin ECLBLAS Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-h3",
+        "title": "HPCC Plugin H3 Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 24.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "noble*64",
+        "name": "Ubuntu 24.04 LTS",
+        "type": "plugin-wasmembed",
+        "title": "HPCC Plugin Wasmembed Ubuntu 24.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
@@ -1280,7 +1487,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1289,7 +1496,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1298,7 +1505,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1307,7 +1514,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1316,7 +1523,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1325,7 +1532,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1334,7 +1541,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1343,7 +1550,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1352,7 +1559,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1361,7 +1568,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-mongodbembed",
+        "type": "plugin-mongodbembed",
         "title": "HPCC Plugin MongoDB embed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1370,7 +1577,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1379,7 +1586,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-nlp",
+        "type": "plugin-nlp",
         "title": "HPCC Plugin NLP for Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1388,7 +1595,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1397,7 +1604,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1406,7 +1613,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1415,7 +1622,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1424,7 +1631,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1433,7 +1640,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-parquetembed",
+        "type": "plugin-parquetembed",
         "title": "HPCC Plugin Parquetembed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1442,7 +1649,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-cassandraembed",
+        "type": "plugin-cassandraembed",
         "title": "HPCC Plugin Cassandraembed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1451,7 +1658,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-eclblas",
+        "type": "plugin-eclblas",
         "title": "HPCC Plugin ECLBLAS Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1460,7 +1667,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-h3",
+        "type": "plugin-h3",
         "title": "HPCC Plugin H3 Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1469,7 +1676,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1478,7 +1685,7 @@ OS = {
         {
         "id": "focal*64",
         "name": "Ubuntu 20.04 LTS",
-        "install": "plugin-wasmembed",
+        "type": "plugin-wasmembed",
         "title": "HPCC Plugin Wasmembed Ubuntu 20.04 LTS",
         "text": "",
         "link": "",
@@ -1487,7 +1694,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1496,7 +1703,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1505,7 +1712,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1514,7 +1721,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1523,7 +1730,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1532,7 +1739,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1541,7 +1748,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1550,7 +1757,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1559,7 +1766,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1568,7 +1775,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-mongodbembed",
+        "type": "plugin-mongodbembed",
         "title": "HPCC Plugin MongoDB embed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1577,7 +1784,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1586,7 +1793,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-nlp",
+        "type": "plugin-nlp",
         "title": "HPCC Plugin NLP for Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1595,7 +1802,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1604,7 +1811,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1613,7 +1820,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1622,7 +1829,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1631,7 +1838,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-parquetembed",
+        "type": "plugin-parquetembed",
         "title": "HPCC Plugin Parquetembed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1640,7 +1847,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1649,7 +1856,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-cassandraembed",
+        "type": "plugin-cassandraembed",
         "title": "HPCC Plugin Cassandraembed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1658,7 +1865,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-eclblas",
+        "type": "plugin-eclblas",
         "title": "HPCC Plugin ECLBLAS Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1667,7 +1874,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-wasmembed",
+        "type": "plugin-wasmembed",
         "title": "HPCC Plugin Wasmembed Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1676,7 +1883,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-h3",
+        "type": "plugin-h3",
         "title": "HPCC Plugin H3 Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1685,7 +1892,7 @@ OS = {
         {
         "id": "jammy*64",
         "name": "Ubuntu 22.04 LTS",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
@@ -1694,7 +1901,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1703,7 +1910,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1712,7 +1919,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "ganglia-monitoring",
+        "type": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1721,7 +1928,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "nagios-monitoring",
+        "type": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1730,7 +1937,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-couchbaseembed",
+        "type": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1739,7 +1946,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-javaembed",
+        "type": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1748,7 +1955,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-kafka",
+        "type": "plugin-kafka",
         "title": "HPCC Plugin Kafka Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1757,7 +1964,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-memcached",
+        "type": "plugin-memcached",
         "title": "HPCC Plugin Memcached Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1766,7 +1973,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-mysqlembed",
+        "type": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1775,7 +1982,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-redis",
+        "type": "plugin-redis",
         "title": "HPCC Plugin Redis Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1784,7 +1991,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-rembed",
+        "type": "plugin-rembed",
         "title": "HPCC Plugin Rembed Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1793,7 +2000,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-sqlite3embed",
+        "type": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1802,7 +2009,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-sqs",
+        "type": "plugin-sqs",
         "title": "HPCC Plugin SQS Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1811,7 +2018,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-v8embed",
+        "type": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1820,7 +2027,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-cassandraembed",
+        "type": "plugin-cassandraembed",
         "title": "HPCC Plugin Cassandraembed Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1829,7 +2036,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-eclblas",
+        "type": "plugin-eclblas",
         "title": "HPCC Plugin ECLBLAS Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1838,7 +2045,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-h3",
+        "type": "plugin-h3",
         "title": "HPCC Plugin H3 Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1847,7 +2054,7 @@ OS = {
         {
         "id": "kinetic",
         "name": "Ubuntu 22.10",
-        "install": "plugin-spark",
+        "type": "plugin-spark",
         "title": "HPCC Plugin Spark Ubuntu 22.10",
         "text": "",
         "link": "",
@@ -1856,7 +2063,7 @@ OS = {
         {
         "id": "disco",
         "name": "Ubuntu 19.04 LTS",
-        "install": "platform",
+        "type": "platform",
         "title": "HPCC Platform Ubuntu 19.04 LTS",
         "text": "",
         "link": "",
@@ -1867,7 +2074,7 @@ OS = {
         {
         "id": "Windows*i386",
         "name": "Windows",
-        "install": "eclide",
+        "type": "eclide",
         "title": "ECL IDE and Client Tools for Windows",
         "text": "",
         "link": "",
@@ -1876,7 +2083,7 @@ OS = {
         {
         "id": "Windows*i386",
         "name": "Windows",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Windows 32 bit",
         "text": "",
         "link": "",
@@ -1885,7 +2092,7 @@ OS = {
         {
         "id": "Windows*x86",
         "name": "Windows",
-        "install": "graphcontrol",
+        "type": "graphcontrol",
         "title": "HPCC Graph Control for Windows 64 bit",
         "text": "",
         "link": "",
@@ -1894,7 +2101,7 @@ OS = {
         {
         "id": "Windows*i386",
         "name": "Windows",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Windows 32bit",
         "text": "",
         "link": "",
@@ -1903,7 +2110,7 @@ OS = {
         {
         "id": "Windows*x86_64",
         "name": "Windows",
-        "install": "clienttools",
+        "type": "clienttools",
         "title": "HPCC Client Tools for Windows 64bit",
         "text": "",
         "link": "",
@@ -1913,7 +2120,7 @@ OS = {
 #        {
 #        "id": "Windows",
 #        "name": "Windows",
-#        "install": "kel-lite",
+#        "type": "kel-lite",
 #        "title": "HPCC Client Tools for Windows",
 #        "text": "",
 #        "link": ""
@@ -1923,7 +2130,7 @@ OS = {
         {
         "id": "VM",
         "name": "Virtual Machine",
-        "install": "VM",
+        "type": "VM",
         "title": "HPCC VM Image",
         "text": "Release Notes",
         "link": "/download/free-community-edition-known-limitations#",
@@ -1933,7 +2140,7 @@ OS = {
         {
         "id": "DOCS",
         "name": "Documentation",
-        "install": "ALL_HPCC_DOCS_EN_US",
+        "type": "ALL_HPCC_DOCS_EN_US",
         "title": "All Documentation (EN_US)",
         "text": "",
         "link": "",
@@ -1942,7 +2149,7 @@ OS = {
         {
         "id": "DOCS",
         "name": "Documentation",
-        "install": "ALL_HPCC_DOCS_PT_BR",
+        "type": "ALL_HPCC_DOCS_PT_BR",
         "title": "All Documentation (PT_BR)",
         "text": "",
         "link": "",
